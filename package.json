@@ -17,11 +17,17 @@
     "node": ">=0.10.0"
   },
   "license": "ISC",
+  "dependencies": {
+    "node-gyp": "^3.6.2"
+  },
+
   "scripts": {
-    "test": "tap test/test-*"
+    "test": "tap test/test-*",
+    "compile": "node-gyp rebuild"
   },
   "devDependencies": {
     "shelljs": "~0.3.0",
     "tap": "~0.4.12"
   }
+  
 }
