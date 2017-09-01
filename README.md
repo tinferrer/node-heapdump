@@ -12,8 +12,8 @@ Or, if you are running node.js v0.6 or v0.8:
     npm install heapdump@0.1.0
 
 ### Build
-
-    node-gyp configure build
+    npm run compile
+    (not node-gyp configure build)
 
 ### Usage
 
